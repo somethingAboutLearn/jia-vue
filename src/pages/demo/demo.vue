@@ -1,5 +1,6 @@
 <template>
     <section>
+        <Nav></Nav>
         <h4>demo</h4>
         <One></One>
         <img src="./assets/1.png" alt="">
@@ -7,12 +8,14 @@
 </template>
 
 <script>
-import One from '@/components/One'
+import Nav from "@/components/Nav";
+import One from "@/components/One";
 
 export default {
-    name: 'Demo',
-    components: {
-        One
-    }
-}
+  name: "Demo",
+  components: {
+    Nav,
+    One
+  }
+};
 </script>
